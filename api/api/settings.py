@@ -77,10 +77,10 @@ WSGI_APPLICATION = 'api.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'sql_server.pyodbc',
-        'NAME': 'SANKHYA-TESTE',
+        'NAME': 'SANKHYA-PROD',
         'USER': 'sankhya',
-        #'HOST': '192.168.100.10',
-        'HOST': '192.168.100.231',
+        'HOST': '192.168.100.10',
+        #'HOST': '192.168.100.231',
         'PORT': '', #deixe vazio que irá por padrão para a porta 1433
         'OPTIONS': {
             'driver': 'ODBC Driver 17 for SQL Server',
