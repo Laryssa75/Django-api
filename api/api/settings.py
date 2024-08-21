@@ -81,10 +81,10 @@ DATABASES = {
         'USER': 'sankhya',
         'HOST': '192.168.100.10',
         #'HOST': '192.168.100.231',
-        'PORT': '', #deixe vazio que irá por padrão para a porta 1433
+        'PORT': '1433', #deixe vazio que irá por padrão para a porta 1433
         'OPTIONS': {
             'driver': 'ODBC Driver 17 for SQL Server',
-            'extra-params': 'TrustServerCertificate=yes',
+            #'extra-params': 'TrustServerCertificate=yes',
         }
     }
 }
