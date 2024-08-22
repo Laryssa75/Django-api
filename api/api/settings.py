@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'integraApi',
 ]
 
 MIDDLEWARE = [
@@ -77,14 +78,15 @@ WSGI_APPLICATION = 'api.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'sql_server.pyodbc',
-        'NAME': 'SANKHYA-PROD',
+        'NAME': 'SANKHYA_PROD',
         'USER': 'sankhya',
+        'PASSWORD': 'n7ftsow9',
         'HOST': '192.168.100.10',
         #'HOST': '192.168.100.231',
-        'PORT': '1433', #deixe vazio que irá por padrão para a porta 1433
+        'PORT': '', #deixe vazio que irá por padrão para a porta 1433
         'OPTIONS': {
             'driver': 'ODBC Driver 17 for SQL Server',
-            #'extra-params': 'TrustServerCertificate=yes',
+            'extra-params': 'TrustServerCertificate=yes',
         }
     }
 }

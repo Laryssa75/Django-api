@@ -16,7 +16,7 @@ Including another URLconf
 """
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
-from .views import FuncionarioViewSet
+from integraApi.views import FuncionarioViewSet
 
 router = DefaultRouter()
 router.register(r'funcionarios', FuncionarioViewSet)
