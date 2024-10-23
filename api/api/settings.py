@@ -80,7 +80,7 @@ DATABASES = {
         'ENGINE': 'sql_server.pyodbc',
         'NAME': 'SANKHYA_PROD',
         'USER': 'sankhya',
-        'PASSWORD': 'n7ftsow9',
+        'PASSWORD': '',
         'HOST': '192.168.100.10',
         #'HOST': '192.168.100.231',
         'PORT': '', #deixe vazio que irá por padrão para a porta 1433
